@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+.name{
+    font-family: "Playfair Display", serif;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 20px 0;
+}
+
+#nosotros, #servicios, #ubicaciones {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+#carrusel {
+    height: 300px; /* Reducir la altura del carrusel */
+}
+
+#carrusel .carousel-inner img {
+    height: 100%;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
+footer h5 {
+    margin-bottom: 20px;
+}
+
+footer p, footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #bbb;
+}
